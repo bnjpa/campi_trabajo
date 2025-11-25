@@ -1,0 +1,15 @@
+int nota;
+cout << "Ingresa tu nota (0-10): ";
+cin >> nota;
+
+if (nota >= 9) {
+    cout << "A" << endl;
+} else if (nota >= 8) {
+    cout << "B" << endl;
+} else if (nota >= 7) {
+    cout << "C" << endl;
+} else if (nota >= 6) {
+    cout << "D" << endl;
+} else {
+    cout << "F" << endl;
+}
